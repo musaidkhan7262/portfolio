@@ -743,7 +743,8 @@ form{
     display: flex;
     align-items: center;
     justify-content:center;
-    background-image: url(https://i.pinimg.com/originals/b9/08/47/b908473caee33d5bc8172c4b709fced3.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.493),rgba(0, 0, 0, 0.5))
+        ,url(https://i.pinimg.com/originals/b9/08/47/b908473caee33d5bc8172c4b709fced3.jpg);
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
