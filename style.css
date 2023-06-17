@@ -967,7 +967,7 @@ main .owner_bio .owner_img{
         overflow-x: hidden;
     }
     main .owner_bio .owner_img {
-        height: 70vw;
+        min-height: 70vw;
         width: 90vw;
     }
     main .owner_bio .owner_img img{
