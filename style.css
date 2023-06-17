@@ -25,7 +25,7 @@ video{
     background: #000;
     z-index: -1;
     width: 100vw;
-    height: 500px;
+    height: 600px;
     object-fit: cover;
 }
 
@@ -78,7 +78,7 @@ video{
     top: 0;
     z-index: 999;
     transition: .1s linear;
-    background-color: #690808;
+    background-color: rgb(150, 12, 12);
     padding-left: 30px;
 
 }
@@ -133,19 +133,13 @@ video{
 }
 /* ----------------------------------header start---------------------------- */
 header{
-    min-height:400px;
+    height:400px;
     width: 100%;
     position: relative;
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     flex-direction: column;
-    /* overflow-x: hidden; */
     flex-wrap: wrap;
-    left: 0;
-    top: 0;
-    background-clip: url();
-    
 
 }
 .video_seter{
@@ -221,6 +215,7 @@ main{
     align-items: center;
     width:100vw;
     left: 0;
+    margin-top: 100px;
 }
 main #fst_span_heading{
     display:flex;
@@ -282,6 +277,7 @@ main #img_cards{
     justify-content: space-around;
     position: relative;
     flex-wrap: wrap;
+    margin-top: 40px;
 }
 main .h1{
     color: #ffefef;
@@ -501,7 +497,7 @@ main .owner_bio .social_media{
     width: 30%;
     color: #fffbfb;
     font-size: 20px;
-    background-color:#690808;
+    background-color:rgb(150, 12, 12);
 }
 .next_priv{
     height: 50px;
@@ -622,7 +618,7 @@ main .owner_bio .social_media{
 .form_div{
     min-height: 300px;
     width: 100vw;
-    background-color: #690808;
+    background-color: rgb(150, 12, 12);
     color: white;
     display: flex;
     align-items: center;
@@ -647,7 +643,7 @@ form{
     font-size: 20px;
     padding-left: 5px;
     outline: none;
-    background-color: #690808;
+    background-color: rgb(150, 12, 12);
     border: none;
     color: #ffffff;
     border-bottom: 1px solid white;
@@ -669,7 +665,7 @@ form{
     width:180px;
     background:white;
     border: 2px solid white;
-    color: #690808;
+    color: rgb(150, 12, 12);
     font-weight: 600;
 
 }
@@ -680,11 +676,10 @@ form{
     width: 100vw;
     background: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 0 50px;
     flex-wrap: wrap;
-    justify-content: center;
 
 }
 .text{
@@ -701,8 +696,8 @@ form{
     height: 40px;
     width:180px;
     background:transparent;
-    border: 2px solid #690808;
-    color: #690808;
+    border: 2px solid rgb(150, 12, 12);
+    color: rgb(150, 12, 12);
     font-weight: 600;
     transition: 0.2s linear;
 
@@ -714,11 +709,11 @@ form{
     height: 40px;
     width:180px;
     background:transparent;
-    border: 2px solid #690808;
+    border: 2px solid rgb(150, 12, 12);
     color: #ffffff;
     font-weight: 600;
     transition: 0.2s linear;
-    background: #690808;
+    background: rgb(150, 12, 12);
 
 }
 
@@ -744,7 +739,7 @@ form{
     align-items: center;
     justify-content:center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.493),rgba(0, 0, 0, 0.5))
-        ,url(https://i.pinimg.com/originals/b9/08/47/b908473caee33d5bc8172c4b709fced3.jpg);
+    ,url(https://i.pinimg.com/originals/b9/08/47/b908473caee33d5bc8172c4b709fced3.jpg);
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -819,11 +814,11 @@ ul{
 li{
     font-size: 10px;
     /* background-color: #000000; */
-    color: #690808;
+    color: rgb(150, 12, 12);
     padding: 5px;
     border-radius: 50px;
     padding: 7px 8px;
-    border:1px solid #690808;
+    border:1px solid rgb(150, 12, 12);
     cursor: pointer;
 }
 li:hover{
@@ -832,7 +827,7 @@ li:hover{
     border-radius: 50px;
     border:1px solid #ffffff;
     cursor: pointer;
-    background: #690808;
+    background: rgb(150, 12, 12);
     padding: 5px;
     padding: 7px 8px;
 }
@@ -968,10 +963,10 @@ main .owner_bio .owner_img{
         overflow-x: hidden;
     }
     main .owner_bio .owner_img {
-        min-height: 70vw;
+        height: 70vw;
         width: 90vw;
     }
-    main .owner_img img{
+    main .owner_bio .owner_img img{
         width: 100%;
         height: 100%;
     }
